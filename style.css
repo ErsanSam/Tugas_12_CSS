@@ -1,0 +1,49 @@
+*{
+  margin:0px;
+  padding: 5px;
+}
+main{
+  background-color: aqua;
+}
+header{
+  background-color: black;
+}
+a:link{
+  color:white;
+}
+a{
+  text-decoration:none;
+}
+li{
+  display: inline;
+}
+.slider-img{
+  display: flex;
+  margin: 5px auto;
+  width:1200;
+  height:600px;
+  background-size: contain;
+}
+.image{
+  width: 150px;
+  height:190px;
+  display: inline;
+  float: left;
+  margin:10px auto;
+  background-size: contain;
+}
+.p-text{
+  column-count: 4;
+  column-fill: balance;
+  column-rule: 2px solid black;
+  text-align: justify;
+}
+footer{
+  background-color: black;
+  text-align: center;
+  color:white;
+
+  margin:20px auto;
+  padding-bottom: 10px;
+  padding-top: 0px;
+}
